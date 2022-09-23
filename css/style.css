@@ -1,0 +1,107 @@
+[class*="contener"] {
+  max-width: 830px;
+  margin: 0 auto;
+  padding: 5px 10px 0px;
+}
+
+header,
+footer {
+  background-color: rgba(66, 69, 81, 1);
+  padding: 50px;
+  color: black;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  text-align: center;
+  /* background-repeat: repeat; */
+  background: url(../img/Vector.png);
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(66, 69, 81, 1);
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.main {
+  font-family: "Lato", sans-serif;
+  font-size: 46px;
+  font-weight: 900;
+  color: rgba(30, 33, 44, 1);
+  margin-bottom: 92px;
+  /* box-align: Center; */
+}
+.main__img img {
+  max-width: 100%;
+  margin-bottom: 60px;
+}
+
+.main__text {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 24px;
+  color: rgba(30, 33, 44, 1);
+}
+
+.po {
+  margin-bottom: 25px;
+}
+.bo {
+  margin-bottom: 48px;
+}
+.main__text__three {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: rgba(30, 33, 44, 1);
+  margin-bottom: 48px;
+  padding-left: 58px;
+}
+.main__text__three {
+  background: url(../img/braces.png) left 5px no-repeat;
+}
+.main__text__four {
+  margin-bottom: 24px;
+}
+.list {
+  margin-bottom: 24px;
+  /* margin-left: 38px; */
+  line-height: 1.7;
+}
+.list_img {
+  background: url("../img/Vector.png") left 5px no-repeat;
+  padding-left: 38px;
+}
+.main__text__five {
+  margin-bottom: 20px;
+}
+.homework {
+  color: blanchedalmond;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+.sep {
+  text-align: center;
+  background-color: darkcyan;
+  color: coral;
+}
+.grad {
+  background-color: cornflowerblue;
+  padding: 15px;
+  height: 750px;
+  background: darkolivegreen url(../img/sit.jpg) no-repeat 10px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.rad {
+  background-color: dodgerblue;
+  padding: 15px;
+  height: 750px;
+  background: url(../img/robot.png) 0 0 / 300px 200px no-repeat,
+    url(../img/8bitcity.jpg) center fixed no-repeat;
+}
